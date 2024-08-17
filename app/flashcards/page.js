@@ -254,7 +254,7 @@ export default function Dashboard() {
           {flashcards.length === 0 && (
             <Box sx={{ mt: 4, textAlign: 'center' }}>
               <Typography variant="h6">
-                You don't have any flashcards yet. Create your first set!
+                You don&apos;t have any flashcards yet. Create your first set!
               </Typography>
               <Button
                 variant="contained"
