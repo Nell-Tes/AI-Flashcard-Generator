@@ -36,7 +36,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
 
 
-const drawerWidth = 240;
+const drawerWidth = 180;
 
 const theme = createTheme({
   palette: {
