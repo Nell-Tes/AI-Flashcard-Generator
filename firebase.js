@@ -19,6 +19,13 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app)
-const analytics = getAnalytics(app);
+
+let analytics;
+if (typeof window !== 'undefined') {
+  import('firebase/analytics').then((module) => {
+    const { getAnalytics } = module;
+    analytics = getAnalytics(app);
+  });
+}
 
 export default db  // Export the db instance
