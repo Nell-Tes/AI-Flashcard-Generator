@@ -2,13 +2,13 @@
 
 <img src="https://img.shields.io/badge/-Solo Project-f2336f?&style=for-the-badge&logoColor=white" />
 
-##Objective
+## Objective
 
 This solo project is an AI-powered flashcard generator application. The app leverages Groq Cloud for AI functionalities, Stripe for payment processing, and Clerk for user management. Built with Node.js and deployed on Vercel, it features a user-friendly interface using Material-UI. The app simplifies the creation and management of flashcards, offering a seamless experience for users to enhance their learning.
 
 **To view the app, <a href="https://ai-flashcard-generator-topaz.vercel.app/"> Click-here</a>.** 
 
-Skills Learned
+## Skills Learned
 - Proficiency in deploying web applications on Vercel.
 - Experience integrating Stripe for payment processing and Clerk for user management.
 - Advanced skills in AI integration with Groq Cloud to generate flashcards based on user input.
